@@ -1,0 +1,41 @@
+header {
+    background-color: red;
+}
+
+header h1 {
+    color: blue;
+}
+
+header>h1 {
+    color: aqua;
+}
+
+#ejemplo h1 {
+    color: blue;
+}
+
+#ejemplo h1:first-child {
+    color: black;
+}
+
+#ejemplo h1:nth-child(4) {
+    color: green;
+}
+
+#ejemplo {
+    width: 50%;
+    height: 100%;
+}
+
+body {
+    background-color: gray;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: yellow;
+    }
+    h1 {
+        color: black !important;
+    }
+}
